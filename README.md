@@ -8,7 +8,34 @@ ESLint [shareable config](https://eslint.org/docs/latest/extend/shareable-config
 pnpm i -D @alexey-koran/eslint-config
 ```
 
-### Usage example
+### Usage [example](https://github.com/alexey-koran/react-template/blob/main/eslint.config.js)
+
+# Scripts
+
+> [!NOTE]
+>
+> `allJsTsExtensions` = js, cjs, mjs, jsx, cjsx, mjsx, ts, cts, mts, tsx, ctsx, mtsx
+>
+> For the more details check [scripts section in package.json](./package.json#L9)
+
+<details open>
+
+<summary><h3>Scripts table</h3></summary>
+
+| Command                   | Description                                            | Path                            |
+| ------------------------- | ------------------------------------------------------ | ------------------------------- |
+|                           |                                                        |                                 |
+|                           | `Code linting & formatting`                            |                                 |
+| `pnpm prettier`           | code format check                                      | `**/*.{allJsTsExtensions,pcss}` |
+| `pnpm prettier:fix`       | code format autofix                                    | `**/*.{allJsTsExtensions,pcss}` |
+| `pnpm lint`               | eslint check                                           | `**/*.{allJsTsExtensions}`      |
+| `pnpm lint:fix`           | eslint autofix                                         | `**/*.{allJsTsExtensions}`      |
+|                           |                                                        |                                 |
+|                           | `Analyzation & config check`                           |                                 |
+| `pnpm test:eslint-config` | eslint config inspector, displays flat configs & rules |                                 |
+|                           |                                                        |                                 |
+
+</details>
 
 # Dependencies
 
