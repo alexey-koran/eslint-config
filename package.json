@@ -1,0 +1,49 @@
+{
+  "name": "@alexey-koran/eslint-config",
+  "version": "0.1.0",
+  "description": "Shared eslint flat config",
+  "main": "index.mjs",
+  "type": "module",
+  "author": "Alexey-Koran <alexey.koran@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint **/*.{js,cjs,mjs,jsx,cjsx,mjsx,ts,cts,mts,tsx,ctsx,mtsx}",
+    "lint:fix": "eslint **/*.{js,cjs,mjs,jsx,cjsx,mjsx,ts,cts,mts,tsx,ctsx,mtsx} --fix",
+    "prettier": "prettier --check \"**/*.{js,cjs,mjs,jsx,cjsx,mjsx,ts,cts,mts,tsx,ctsx,mtsx}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,cjs,mjs,jsx,cjsx,mjsx,ts,cts,mts,tsx,ctsx,mtsx}\"",
+    "test:eslint-config": "eslint-config-inspector"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-koran/eslint-config.git"
+  },
+  "keywords": [
+    "Eslint flat config"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexey-koran/eslint-config/issues"
+  },
+  "homepage": "https://github.com/alexey-koran/eslint-config#readme",
+  "dependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.9.1",
+    "@stylistic/eslint-plugin-js": "^2.7.1",
+    "@stylistic/eslint-plugin-jsx": "^2.7.1",
+    "@stylistic/eslint-plugin-ts": "^2.7.1",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "5.1.0-rc-a19a8ab4-20240829",
+    "globals": "^15.9.0",
+    "typescript-eslint": "^8.3.0"
+  },
+  "devDependencies": {
+    "@alexey-koran/prettier-config": "^0.1.1",
+    "@eslint/config-inspector": "^0.5.4",
+    "prettier": "^3.3.3"
+  }
+}
