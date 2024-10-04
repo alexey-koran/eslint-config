@@ -9,7 +9,6 @@ const config = [
   {
     files: [supportedFileTypes.js],
     settings: {
-      'import/ignore': 'node_modules', // Temporary fix https://github.com/typescript-eslint/typescript-eslint/issues/9450
       'import/extensions': supportedExtensions.js,
       'import/parsers': {
         '@typescript-eslint/parser': [...supportedExtensions.ts, ...supportedExtensions.tsx],
