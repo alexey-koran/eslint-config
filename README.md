@@ -69,7 +69,6 @@ pnpm i -D @alexey-koran/eslint-config
 |                                   |                                                                                                                                         |                                                                           |
 |                                   | `Other`                                                                                                                                 |                                                                           |
 | globals                           | global identifiers from different JavaScript environments                                                                               | [v15.10.\*](https://github.com/sindresorhus/globals)                      |
-| @eslint/compat                    | ESLint compatibility utilities                                                                                                          | [v1.1.\*](https://github.com/eslint/rewrite)                              |
 |                                   |                                                                                                                                         |                                                                           |
 
 | Package name                  | Description                                                                                             | Version                                                   |

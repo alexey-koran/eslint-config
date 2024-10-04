@@ -1,7 +1,6 @@
-import { fixupPluginRules } from '@eslint/compat';
-import stylisticJS from '@stylistic/eslint-plugin-js';
-import pluginImport from 'eslint-plugin-import';
-import pluginImportConfig from 'eslint-plugin-import/config/recommended.js';
+import stylisticJSPlugin from '@stylistic/eslint-plugin-js';
+import importPlugin from 'eslint-plugin-import';
+import importPluginConfig from 'eslint-plugin-import/config/recommended.js';
 import prettierPlugin from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-plugin-prettier/recommended';
 import typescriptEslint from 'typescript-eslint';
@@ -24,16 +23,13 @@ export const baseConfig = {
     reportUnusedDisableDirectives: 'error',
   },
   plugins: {
-    // TODO: Remove after eslint-plugin-import update
-    // fixupPluginRules wraps each rule in the given plugin using fixupRule()
-    // and returns a new object that represents the plugin with the fixed-up rules
-    import: fixupPluginRules(pluginImport),
+    import: importPlugin,
     prettier: prettierPlugin,
-    '@stylistic/js': stylisticJS,
+    '@stylistic/js': stylisticJSPlugin,
   },
   rules: {
     ...prettierConfig.rules,
-    ...pluginImportConfig.rules,
+    ...importPluginConfig.rules,
     ...jsRules,
     ...importRules,
     ...stylisticRules.js,
