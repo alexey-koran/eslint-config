@@ -1,6 +1,6 @@
 import stylisticJSPlugin from '@stylistic/eslint-plugin-js';
 import importPlugin from 'eslint-plugin-import';
-import importPluginConfig from 'eslint-plugin-import/config/recommended.js';
+import importConfig from 'eslint-plugin-import/config/recommended.js';
 import prettierPlugin from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-plugin-prettier/recommended';
 import typescriptEslint from 'typescript-eslint';
@@ -29,7 +29,7 @@ export const baseConfig = {
   },
   rules: {
     ...prettierConfig.rules,
-    ...importPluginConfig.rules,
+    ...importConfig.rules,
     ...jsRules,
     ...importRules,
     ...stylisticRules.js,
