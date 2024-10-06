@@ -42,8 +42,8 @@ importers:
         specifier: ^7.37.1
         version: 7.37.1(eslint@9.12.0)
       eslint-plugin-react-hooks:
-        specifier: 5.1.0-rc-a19a8ab4-20240829
-        version: 5.1.0-rc-a19a8ab4-20240829(eslint@9.12.0)
+        specifier: 5.1.0-rc-1460d67c-20241003
+        version: 5.1.0-rc-1460d67c-20241003(eslint@9.12.0)
       globals:
         specifier: ^15.10.0
         version: 15.10.0
@@ -729,8 +729,8 @@ packages:
       eslint-config-prettier:
         optional: true
 
-  eslint-plugin-react-hooks@5.1.0-rc-a19a8ab4-20240829:
-    resolution: {integrity: sha512-lWHTnMQqgAvQ4S5VVyXSxdNnfqbSiH4VAb7hbN1scbQaB9DmXkE2r1EOi2RigeA3x994TOcrFb73l1UZD4PvXQ==}
+  eslint-plugin-react-hooks@5.1.0-rc-1460d67c-20241003:
+    resolution: {integrity: sha512-6RB5ld4hvk8hDc0JNMyid5/+SQ0ZyRtmmZV2lSvnWAA0zLIANUpSf7QNb7gtPYVop4qSu79hJpBsDGwdtXluig==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -2339,7 +2339,7 @@ snapshots:
     optionalDependencies:
       eslint-config-prettier: 9.1.0(eslint@9.12.0)
 
-  eslint-plugin-react-hooks@5.1.0-rc-a19a8ab4-20240829(eslint@9.12.0):
+  eslint-plugin-react-hooks@5.1.0-rc-1460d67c-20241003(eslint@9.12.0):
     dependencies:
       eslint: 9.12.0
 
