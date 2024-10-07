@@ -32,7 +32,6 @@ export const jsRules = {
   'id-match': 2,
   'id-denylist': 2,
 
-  'no-void': ['error', { allowAsStatement: true }],
   'no-eval': 2,
   'no-alert': 2,
   'no-proto': 2,
@@ -68,8 +67,14 @@ export const jsRules = {
 
   'no-return-assign': [2, 'always'],
 
+  'no-void': [
+    2,
+    {
+      allowAsStatement: true,
+    },
+  ],
   'no-param-reassign': [
-    'error',
+    2,
     {
       props: true,
       ignorePropertyModificationsFor: ['state'],
@@ -91,6 +96,13 @@ export const jsRules = {
     2,
     {
       allowElseIf: false,
+    },
+  ],
+  'no-unused-vars': [
+    2,
+    {
+      argsIgnorePattern: '^_',
+      caughtErrorsIgnorePattern: '^_',
     },
   ],
   'no-unneeded-ternary': [

@@ -1,4 +1,4 @@
-import stylisticTS from '@stylistic/eslint-plugin-ts';
+import stylisticTSPlugin from '@stylistic/eslint-plugin-ts';
 import typescriptEslint from 'typescript-eslint';
 
 import { stylisticRules } from '../rules/stylistic.mjs';
@@ -18,7 +18,7 @@ export const typeScriptConfig = {
   },
   plugins: {
     '@typescript-eslint': typescriptEslint.plugin,
-    '@stylistic/ts': stylisticTS,
+    '@stylistic/ts': stylisticTSPlugin,
   },
   rules: {
     ...typescriptEslint.configs['strictTypeChecked'].rules,

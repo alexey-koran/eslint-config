@@ -1,13 +1,14 @@
-import { shareableConfig } from './config.mjs';
+import { baseConfig } from './configs/base.mjs';
+import { javaScriptConfig } from './configs/js.mjs';
 import { supportedExtensions } from './utils/extensions.mjs';
 import { supportedFileTypes } from './utils/fileTypes.mjs';
 
 const config = [
-  ...shareableConfig,
+  baseConfig,
+  javaScriptConfig,
   {
     files: [supportedFileTypes.js],
     settings: {
-      'import/ignore': 'node_modules', // Temporary fix https://github.com/typescript-eslint/typescript-eslint/issues/9450
       'import/extensions': supportedExtensions.js,
       'import/parsers': {
         '@typescript-eslint/parser': [...supportedExtensions.ts, ...supportedExtensions.tsx],

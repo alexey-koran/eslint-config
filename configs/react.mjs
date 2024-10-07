@@ -1,7 +1,7 @@
 import reactPlugin from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 
-import stylisticJSX from '@stylistic/eslint-plugin-jsx';
+import stylisticJSXPlugin from '@stylistic/eslint-plugin-jsx';
 import reactAccessibility from 'eslint-plugin-jsx-a11y';
 import globals from 'globals';
 import typescriptEslint from 'typescript-eslint';
@@ -35,7 +35,7 @@ export const reactConfig = {
     'jsx-a11y': reactAccessibility,
     react: reactPlugin,
     'react-hooks': reactHooks,
-    '@stylistic/jsx': stylisticJSX,
+    '@stylistic/jsx': stylisticJSXPlugin,
   },
   rules: {
     ...reactAccessibility.configs.recommended.rules,
