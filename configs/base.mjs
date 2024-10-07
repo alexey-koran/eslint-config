@@ -1,4 +1,3 @@
-import stylisticJSPlugin from '@stylistic/eslint-plugin-js';
 import importPlugin from 'eslint-plugin-import';
 import importConfig from 'eslint-plugin-import/config/recommended.js';
 import prettierPlugin from 'eslint-plugin-prettier';
@@ -6,8 +5,6 @@ import prettierConfig from 'eslint-plugin-prettier/recommended';
 import typescriptEslint from 'typescript-eslint';
 
 import { importRules } from '../rules/import.mjs';
-import { jsRules } from '../rules/js.mjs';
-import { stylisticRules } from '../rules/stylistic.mjs';
 import { supportedFileTypes } from '../utils/fileTypes.mjs';
 
 export const baseConfig = {
@@ -25,13 +22,10 @@ export const baseConfig = {
   plugins: {
     import: importPlugin,
     prettier: prettierPlugin,
-    '@stylistic/js': stylisticJSPlugin,
   },
   rules: {
     ...prettierConfig.rules,
     ...importConfig.rules,
-    ...jsRules,
     ...importRules,
-    ...stylisticRules.js,
   },
 };
