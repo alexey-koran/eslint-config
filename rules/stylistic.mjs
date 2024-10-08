@@ -20,7 +20,6 @@ export const stylisticRules = {
         },
       },
     ],
-    '@stylistic/js/newline-per-chained-call': 2,
   },
   ts: {
     '@stylistic/ts/padding-line-between-statements': [
