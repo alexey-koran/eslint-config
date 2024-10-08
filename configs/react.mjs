@@ -3,7 +3,6 @@ import reactHooks from 'eslint-plugin-react-hooks';
 
 import stylisticJSXPlugin from '@stylistic/eslint-plugin-jsx';
 import reactAccessibility from 'eslint-plugin-jsx-a11y';
-import globals from 'globals';
 import typescriptEslint from 'typescript-eslint';
 
 import { reactRules } from '../rules/react.mjs';
@@ -19,9 +18,6 @@ export const reactConfig = {
   },
   languageOptions: {
     globals: {
-      ...globals.browser,
-      ...globals.node,
-      ...globals.es2021,
       JSX: 'readonly',
     },
     parserOptions: {
