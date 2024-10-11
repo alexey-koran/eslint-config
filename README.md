@@ -68,7 +68,7 @@ pnpm i -D @alexey-koran/eslint-config
 | @stylistic/eslint-plugin-ts       | [TypeScript](https://www.typescriptlang.org/) stylistic rules for ESLint                                                                | [v2.9.\*](https://www.npmjs.com/package/@stylistic/eslint-plugin-ts)      |
 |                                   |                                                                                                                                         |                                                                           |
 |                                   | `Other`                                                                                                                                 |                                                                           |
-| globals                           | global identifiers from different JavaScript environments                                                                               | [v15.10.\*](https://github.com/sindresorhus/globals)                      |
+| globals                           | global identifiers from different JavaScript environments                                                                               | [v15.11.\*](https://github.com/sindresorhus/globals)                      |
 |                                   |                                                                                                                                         |                                                                           |
 
 | Package name                  | Description                                                                                             | Version                                                   |
