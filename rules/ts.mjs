@@ -202,5 +202,11 @@ export const getTsNamingConventionRule = ({ isTsx = false } = {}) => ({
       leadingUnderscore: 'forbid',
       trailingUnderscore: 'forbid',
     },
+    {
+      selector: 'enumMember',
+      format: ['strictCamelCase', 'UPPER_CASE'],
+      leadingUnderscore: 'forbid',
+      trailingUnderscore: 'forbid',
+    },
   ],
 });
