@@ -59,6 +59,7 @@ export const jsRules = {
   'no-unmodified-loop-condition': 2,
   'no-constant-binary-expression': 2,
 
+  'arrow-body-style': 2,
   'prefer-template': 2,
   'prefer-object-spread': 2,
   'prefer-object-has-own': 2,
