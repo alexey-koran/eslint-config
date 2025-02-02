@@ -9,6 +9,7 @@ import { importRules } from '../rules/import.mjs';
 import { supportedFileTypes } from '../utils/fileTypes.mjs';
 
 export const baseConfig = {
+  name: 'eslint-config/base',
   files: [supportedFileTypes.all],
   languageOptions: {
     globals: {

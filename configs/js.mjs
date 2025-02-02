@@ -6,6 +6,7 @@ import { stylisticRules } from '../rules/stylistic.mjs';
 import { supportedFileTypes } from '../utils/fileTypes.mjs';
 
 export const javaScriptConfig = {
+  name: 'eslint-config/javascript',
   files: [supportedFileTypes.js],
   plugins: {
     '@stylistic/js': stylisticJSPlugin,

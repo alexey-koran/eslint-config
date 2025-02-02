@@ -10,6 +10,7 @@ import { stylisticRules } from '../rules/stylistic.mjs';
 import { supportedFileTypes } from '../utils/fileTypes.mjs';
 
 export const reactConfig = {
+  name: 'eslint-config/react',
   files: [supportedFileTypes.jsx, supportedFileTypes.tsx],
   settings: {
     react: {

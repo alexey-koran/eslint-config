@@ -7,6 +7,7 @@ const config = [
   baseConfig,
   javaScriptConfig,
   {
+    name: 'local/javascript',
     files: [supportedFileTypes.js],
     settings: {
       'import/extensions': supportedExtensions.js,
@@ -25,6 +26,7 @@ const config = [
     },
   },
   {
+    name: 'local/ignores',
     // The new config system no longer supports .eslintignore files
     // https://eslint.org/blog/2022/10/eslint-v8.25.0-released/#highlights
     ignores: ['build'],
