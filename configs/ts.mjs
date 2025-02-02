@@ -6,10 +6,8 @@ import { tsRules } from '../rules/ts.mjs';
 import { supportedFileTypes } from '../utils/fileTypes.mjs';
 
 export const typeScriptConfig = {
+  name: 'eslint-config/typescript',
   files: [supportedFileTypes.ts, supportedFileTypes.tsx],
-  settings: {
-    'import/ignore': 'node_modules', // Temporary fix https://github.com/typescript-eslint/typescript-eslint/issues/9450
-  },
   languageOptions: {
     parser: typescriptEslint.parser,
     parserOptions: {
