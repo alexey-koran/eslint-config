@@ -45,17 +45,16 @@ pnpm i -D @alexey-koran/eslint-config
 
 <details open>
 
-<summary><h3>Dependencies table</h3></summary>
+<summary><h3>Dependencies</h3></summary>
 
 | Package name                      | Description                                                                                                                             | Version                                                                   |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-|                                   |                                                                                                                                         |                                                                           |
-| eslint                            | configurable JavaScript linter                                                                                                          | [v9.12.\*](https://eslint.org/)                                           |
 | typescript-eslint                 | enables ESLint and Prettier to support [TypeScript](https://www.typescriptlang.org/)                                                    | [v8.8.\*](https://typescript-eslint.io/)                                  |
+|                                   |                                                                                                                                         |                                                                           |
 |                                   | `Configs`                                                                                                                               |                                                                           |
 | eslint-config-prettier            | turns off all rules that are unnecessary or might conflict with [Prettier](https://github.com/prettier/prettier)                        | [v9.1.\*](https://github.com/prettier/eslint-config-prettier)             |
+|                                   |                                                                                                                                         |                                                                           |
 |                                   | `Plugins`                                                                                                                               |                                                                           |
-| @eslint/js                        | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                                                   | [v9.12.\*](https://www.npmjs.com/package/@eslint/js)                      |
 | eslint-plugin-import              | intends to support linting of ES2015+ (ES6+) import/export syntax, prevent issues with misspelling of file paths and import names       | [v2.31.\*](https://github.com/import-js/eslint-plugin-import)             |
 | eslint-import-resolver-typescript | adds [TypeScript](https://www.typescriptlang.org/) support to [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) | [v3.6.\*](https://github.com/import-js/eslint-import-resolver-typescript) |
 | eslint-import-resolver-webpack    | webpack-literate module resolution plugin for [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)                | [v0.13.\*](https://www.npmjs.com/package/eslint-import-resolver-webpack)  |
@@ -71,10 +70,20 @@ pnpm i -D @alexey-koran/eslint-config
 | globals                           | global identifiers from different JavaScript environments                                                                               | [v15.11.\*](https://github.com/sindresorhus/globals)                      |
 |                                   |                                                                                                                                         |                                                                           |
 
+</details>
+
+<details open>
+
+<summary><h3>Development dependencies</h3></summary>
+
 | Package name                  | Description                                                                                             | Version                                                   |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| eslint                        | configurable JavaScript linter                                                                          | [v9.19.\*](https://eslint.org/)                           |
 |                               |                                                                                                         |                                                           |
-|                               | `For local development`                                                                                 |                                                           |
+|                               | `Plugins`                                                                                               |                                                           |
+| @eslint/js                    | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                   | [v9.19.\*](https://www.npmjs.com/package/@eslint/js)      |
+|                               |                                                                                                         |                                                           |
+|                               | `Other`                                                                                                 |                                                           |
 | @eslint/config-inspector      | ESLint config inspector                                                                                 | [v0.5.\*](https://github.com/eslint/config-inspector)     |
 | @alexey-koran/prettier-config | Prettier [sharing configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations) | [v0.1\*](https://npmjs.com/@alexey-koran/prettier-config) |
 |                               |                                                                                                         |                                                           |
