@@ -77,6 +77,7 @@ export const tsRules = {
   '@typescript-eslint/no-redeclare': 2, // eslint version of rule disabled by eslint:recommended
   '@typescript-eslint/method-signature-style': 2,
   '@typescript-eslint/promise-function-async': 2,
+  '@typescript-eslint/no-unsafe-type-assertion': 2,
   '@typescript-eslint/switch-exhaustiveness-check': 2,
   '@typescript-eslint/no-confusing-void-expression': 2,
   '@typescript-eslint/no-redundant-type-constituents': 2,
