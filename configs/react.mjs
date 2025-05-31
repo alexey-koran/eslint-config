@@ -3,7 +3,6 @@ import reactHooks from 'eslint-plugin-react-hooks';
 
 import stylisticJSXPlugin from '@stylistic/eslint-plugin-jsx';
 import reactAccessibility from 'eslint-plugin-jsx-a11y';
-import typescriptEslint from 'typescript-eslint';
 
 import { reactRules, stylisticRules } from '../rules/index.mjs';
 import { supportedFileTypes } from '../utils/index.mjs';
@@ -27,7 +26,6 @@ export const reactConfig = {
     },
   },
   plugins: {
-    '@typescript-eslint': typescriptEslint.plugin,
     'jsx-a11y': reactAccessibility,
     react: reactPlugin,
     'react-hooks': reactHooks,
