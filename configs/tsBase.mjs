@@ -1,7 +1,7 @@
 import typescriptEslint from 'typescript-eslint';
 
-import { getTsNamingConventionRule } from '../rules/ts.mjs';
-import { supportedFileTypes } from '../utils/fileTypes.mjs';
+import { getTsNamingConventionSelectors } from '../rules/index.mjs';
+import { supportedFileTypes } from '../utils/index.mjs';
 
 export const typeScriptBaseConfig = {
   name: 'eslint-config/typescript-base',
@@ -10,6 +10,6 @@ export const typeScriptBaseConfig = {
     '@typescript-eslint': typescriptEslint.plugin,
   },
   rules: {
-    ...getTsNamingConventionRule(),
+    '@typescript-eslint/naming-convention': [2, ...getTsNamingConventionSelectors()],
   },
 };

@@ -5,9 +5,8 @@ import stylisticJSXPlugin from '@stylistic/eslint-plugin-jsx';
 import reactAccessibility from 'eslint-plugin-jsx-a11y';
 import typescriptEslint from 'typescript-eslint';
 
-import { reactRules } from '../rules/react.mjs';
-import { stylisticRules } from '../rules/stylistic.mjs';
-import { supportedFileTypes } from '../utils/fileTypes.mjs';
+import { reactRules, stylisticRules } from '../rules/index.mjs';
+import { supportedFileTypes } from '../utils/index.mjs';
 
 export const reactConfig = {
   name: 'eslint-config/react',

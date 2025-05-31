@@ -5,7 +5,7 @@ import prettierConfig from 'eslint-plugin-prettier/recommended';
 import globals from 'globals';
 import typescriptEslint from 'typescript-eslint';
 
-import { importRules } from '../rules/import.mjs';
+import { importRules } from '../rules/index.mjs';
 import { supportedFileTypes } from '../utils/fileTypes.mjs';
 
 export const baseConfig = {
