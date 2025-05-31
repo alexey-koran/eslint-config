@@ -18,7 +18,11 @@
     "url": "git+https://github.com/alexey-koran/eslint-config.git"
   },
   "keywords": [
-    "Eslint flat config"
+    "eslint",
+    "eslint-config",
+    "eslint-config-flat",
+    "flat-config",
+    "flat-config-eslint"
   ],
   "bugs": {
     "url": "https://github.com/alexey-koran/eslint-config/issues"
