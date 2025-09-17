@@ -1,11 +1,13 @@
 import { baseConfig } from './configs/base.mjs';
 import { javaScriptConfig } from './configs/js.mjs';
+import { typeScriptConfig } from './configs/ts.mjs';
 import { supportedExtensions } from './utils/extensions.mjs';
 import { supportedFileTypes } from './utils/fileTypes.mjs';
 
 const config = [
   baseConfig,
   javaScriptConfig,
+  typeScriptConfig,
   {
     name: 'local/javascript',
     files: [supportedFileTypes.js],
