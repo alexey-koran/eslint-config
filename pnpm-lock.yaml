@@ -9,53 +9,53 @@ importers:
   .:
     dependencies:
       '@stylistic/eslint-plugin':
-        specifier: 5.3.1
+        specifier: ^5.3.1
         version: 5.3.1(eslint@9.35.0)
       eslint-config-prettier:
-        specifier: 10.1.8
+        specifier: ^10.1.8
         version: 10.1.8(eslint@9.35.0)
       eslint-import-resolver-typescript:
-        specifier: 4.4.4
-        version: 4.4.4(eslint-plugin-import@2.31.0)(eslint@9.35.0)
+        specifier: ^4.4.4
+        version: 4.4.4(eslint-plugin-import@2.32.0)(eslint@9.35.0)
       eslint-import-resolver-webpack:
-        specifier: 0.13.10
-        version: 0.13.10(eslint-plugin-import@2.31.0)(webpack@5.101.3(esbuild@0.25.9))
+        specifier: ^0.13.10
+        version: 0.13.10(eslint-plugin-import@2.32.0)(webpack@5.101.3(esbuild@0.25.9))
       eslint-plugin-import:
-        specifier: 2.31.0
-        version: 2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0)
+        specifier: ^2.32.0
+        version: 2.32.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0)
       eslint-plugin-jsx-a11y:
-        specifier: 6.10.2
+        specifier: ^6.10.2
         version: 6.10.2(eslint@9.35.0)
       eslint-plugin-prettier:
-        specifier: 5.2.3
+        specifier: ^5.2.3
         version: 5.2.3(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.35.0))(eslint@9.35.0)(prettier@3.6.2)
       eslint-plugin-react:
-        specifier: 7.37.5
+        specifier: ^7.37.5
         version: 7.37.5(eslint@9.35.0)
       eslint-plugin-react-hooks:
         specifier: 5.2.0
         version: 5.2.0(eslint@9.35.0)
       globals:
-        specifier: 16.2.0
+        specifier: ^16.2.0
         version: 16.2.0
       typescript-eslint:
-        specifier: 8.22.0
+        specifier: ^8.22.0
         version: 8.22.0(eslint@9.35.0)(typescript@5.7.3)
     devDependencies:
       '@alexey-koran/prettier-config':
-        specifier: 0.1.4
+        specifier: ^0.1.4
         version: 0.1.4(prettier@3.6.2)
       '@eslint/config-inspector':
-        specifier: 1.2.0
+        specifier: ^1.2.0
         version: 1.2.0(eslint@9.35.0)
       '@eslint/js':
-        specifier: 9.35.0
+        specifier: ^9.35.0
         version: 9.35.0
       eslint:
-        specifier: 9.35.0
+        specifier: ^9.35.0
         version: 9.35.0
       prettier:
-        specifier: 3.6.2
+        specifier: ^3.6.2
         version: 3.6.2
 
 packages:
@@ -951,8 +951,8 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
 
-  eslint-plugin-import@2.31.0:
-    resolution: {integrity: sha512-ixmkI62Rbc2/w8Vfxyh1jQRTdRTF52VxwRVHl/ykPAmqG+Nb7/kNn+byLP0LxPgI7zWA16Jt82SybJInmMia3A==}
+  eslint-plugin-import@2.32.0:
+    resolution: {integrity: sha512-whOE1HFo/qJDyX4SnXzP4N6zOWn79WhnCUY/iDR0mPfQZO8wcYE4JClzI2oZrhBnnMUCBCHZhO6VQyoBU95mZA==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -2907,7 +2907,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@4.4.4(eslint-plugin-import@2.31.0)(eslint@9.35.0):
+  eslint-import-resolver-typescript@4.4.4(eslint-plugin-import@2.32.0)(eslint@9.35.0):
     dependencies:
       debug: 4.4.3
       eslint: 9.35.0
@@ -2918,15 +2918,15 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-webpack@0.13.10(eslint-plugin-import@2.31.0)(webpack@5.101.3(esbuild@0.25.9)):
+  eslint-import-resolver-webpack@0.13.10(eslint-plugin-import@2.32.0)(webpack@5.101.3(esbuild@0.25.9)):
     dependencies:
       debug: 3.2.7
       enhanced-resolve: 0.9.1
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0)
       find-root: 1.1.0
       hasown: 2.0.2
       interpret: 1.4.0
@@ -2946,12 +2946,12 @@ snapshots:
       '@typescript-eslint/parser': 8.22.0(eslint@9.35.0)(typescript@5.7.3)
       eslint: 9.35.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 4.4.4(eslint-plugin-import@2.31.0)(eslint@9.35.0)
-      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.31.0)(webpack@5.101.3(esbuild@0.25.9))
+      eslint-import-resolver-typescript: 4.4.4(eslint-plugin-import@2.32.0)(eslint@9.35.0)
+      eslint-import-resolver-webpack: 0.13.10(eslint-plugin-import@2.32.0)(webpack@5.101.3(esbuild@0.25.9))
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.22.0(eslint@9.35.0)(typescript@5.7.3))(eslint-import-resolver-typescript@4.4.4)(eslint-import-resolver-webpack@0.13.10)(eslint@9.35.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
