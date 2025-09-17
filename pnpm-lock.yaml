@@ -45,6 +45,9 @@ importers:
       '@alexey-koran/prettier-config':
         specifier: ^0.1.4
         version: 0.1.4(prettier@3.6.2)
+      '@alexey-koran/tsconfig':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@eslint/config-inspector':
         specifier: ^1.2.0
         version: 1.2.0(eslint@9.35.0)
@@ -64,6 +67,9 @@ packages:
     resolution: {integrity: sha512-QYbGsxPdkopzxp80EZsqh9df2P8CJ4pijwwYam8pdwt0T9PHaNWk2nPKz27IgZIcUOxjbytBztvDa33W91t4Mw==}
     peerDependencies:
       prettier: ^3.6.2
+
+  '@alexey-koran/tsconfig@0.1.0':
+    resolution: {integrity: sha512-dk9kyKv7d0BAgy/4YuppXqL/4nHkGr1LudusYnDnBijUXmYX5yJNtBixcjrlaP0Vp5jVt0yMhewIGnj2d1fR7g==}
 
   '@emnapi/core@1.5.0':
     resolution: {integrity: sha512-sbP8GzB1WDzacS8fgNPpHlp6C9VZe+SJP3F90W9rLemaQj2PzIuTEl1qDOYQf58YIpyjViI24y9aPWCjEzY2cg==}
@@ -1988,6 +1994,8 @@ snapshots:
   '@alexey-koran/prettier-config@0.1.4(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
+
+  '@alexey-koran/tsconfig@0.1.0': {}
 
   '@emnapi/core@1.5.0':
     dependencies:

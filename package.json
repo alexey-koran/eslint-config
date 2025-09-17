@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@alexey-koran/prettier-config": "^0.1.4",
+    "@alexey-koran/tsconfig": "^0.1.0",
     "@eslint/config-inspector": "^1.2.0",
     "@eslint/js": "^9.35.0",
     "eslint": "^9.35.0",
