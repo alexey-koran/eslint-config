@@ -78,11 +78,11 @@ pnpm i -D @alexey-koran/eslint-config
 
 | Package name                  | Description                                                                                             | Version                                                   |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| eslint                        | configurable JavaScript linter                                                                          | [v9.19.\*](https://eslint.org/)                           |
+| eslint                        | configurable JavaScript linter                                                                          | [v9.35.\*](https://eslint.org/)                           |
 | prettier                      | opinionated code formatter                                                                              | [v3.5.\*](https://prettier.io/)                           |
 |                               |                                                                                                         |                                                           |
 |                               | `Plugins`                                                                                               |                                                           |
-| @eslint/js                    | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                   | [v9.19.\*](https://www.npmjs.com/package/@eslint/js)      |
+| @eslint/js                    | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                   | [v9.35.\*](https://www.npmjs.com/package/@eslint/js)      |
 |                               |                                                                                                         |                                                           |
 |                               | `Other`                                                                                                 |                                                           |
 | @eslint/config-inspector      | ESLint config inspector                                                                                 | [v1.2.\*](https://github.com/eslint/config-inspector)     |
