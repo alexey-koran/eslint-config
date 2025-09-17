@@ -85,7 +85,7 @@ pnpm i -D @alexey-koran/eslint-config
 | @eslint/js                    | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                   | [v9.19.\*](https://www.npmjs.com/package/@eslint/js)      |
 |                               |                                                                                                         |                                                           |
 |                               | `Other`                                                                                                 |                                                           |
-| @eslint/config-inspector      | ESLint config inspector                                                                                 | [v1.0.\*](https://github.com/eslint/config-inspector)     |
+| @eslint/config-inspector      | ESLint config inspector                                                                                 | [v1.2.\*](https://github.com/eslint/config-inspector)     |
 | @alexey-koran/prettier-config | Prettier [sharing configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations) | [v0.1\*](https://npmjs.com/@alexey-koran/prettier-config) |
 |                               |                                                                                                         |                                                           |
 
