@@ -65,7 +65,7 @@ pnpm i -D @alexey-koran/eslint-config
 | @stylistic/eslint-plugin          | Stylistic Formatting for ESLint. Formatting and Linting in one go, with fully customizable rules                                        | [v5.3.\*](https://github.com/eslint-stylistic/eslint-stylistic)           |
 |                                   |                                                                                                                                         |                                                                           |
 |                                   | `Other`                                                                                                                                 |                                                                           |
-| globals                           | global identifiers from different JavaScript environments                                                                               | [v16.2.\*](https://github.com/sindresorhus/globals)                       |
+| globals                           | global identifiers from different JavaScript environments                                                                               | [v16.4.\*](https://github.com/sindresorhus/globals)                       |
 |                                   |                                                                                                                                         |                                                                           |
 
 </details>
