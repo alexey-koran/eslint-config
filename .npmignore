@@ -2,4 +2,6 @@ node_modules
 eslint.config.mjs
 prettier.config.mjs
 .prettierignore
+pnpm-workspace.yaml
+tsconfig.json
 *.tgz
