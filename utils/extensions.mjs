@@ -1,22 +1,22 @@
-export const jsExtObj = {
+const js = {
   default: 'js',
   commonJS: 'cjs',
   esm: 'mjs',
 };
 
-export const jsxExtObj = {
+const jsx = {
   default: 'jsx',
   commonJS: 'cjsx',
   esm: 'mjsx',
 };
 
-export const tsExtObj = {
+const ts = {
   default: 'ts',
   commonJS: 'cts',
   esm: 'mts',
 };
 
-export const tsxExtObj = {
+const tsx = {
   default: 'tsx',
   commonJS: 'ctsx',
   esm: 'mtsx',
@@ -32,26 +32,23 @@ const getExtensionsArr = ({ extObj, options: { startsWithDot = false } = {} }) =
   return extensionsArr;
 };
 
-export const getExtensionsStr = ({ extObj, options: { separator = '' } }) =>
-  getExtensionsArr({ extObj }).join(separator);
-
 const jsExtArr = getExtensionsArr({
-  extObj: jsExtObj,
+  extObj: js,
   options: { startsWithDot: true },
 });
 
 const jsxExtArr = getExtensionsArr({
-  extObj: jsxExtObj,
+  extObj: jsx,
   options: { startsWithDot: true },
 });
 
 const tsExtArr = getExtensionsArr({
-  extObj: tsExtObj,
+  extObj: ts,
   options: { startsWithDot: true },
 });
 
 const tsxExtArr = getExtensionsArr({
-  extObj: tsxExtObj,
+  extObj: tsx,
   options: { startsWithDot: true },
 });
 
@@ -64,3 +61,24 @@ export const supportedExtensions = {
   ts: tsExtArr,
   tsx: tsxExtArr,
 };
+
+const getExtensionsStr = ({ extObj, options: { separator = ',' } = {} }) =>
+  getExtensionsArr({ extObj }).join(separator);
+
+export const jsExtStr = getExtensionsStr({
+  extObj: js,
+});
+
+export const jsxExtStr = getExtensionsStr({
+  extObj: jsx,
+});
+
+export const tsExtStr = getExtensionsStr({
+  extObj: ts,
+});
+
+export const tsxExtStr = getExtensionsStr({
+  extObj: tsx,
+});
+
+export const extensionsStr = `${jsExtStr},${jsxExtStr},${tsExtStr},${tsxExtStr}`;

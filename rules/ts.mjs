@@ -145,69 +145,66 @@ export const tsRules = {
   ],
 };
 
-export const getTsNamingConventionRule = ({ isTsx = false } = {}) => ({
-  '@typescript-eslint/naming-convention': [
-    2,
-    {
-      selector: 'default',
-      format: ['strictCamelCase', ...(isTsx ? ['StrictPascalCase'] : [])],
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'import',
-      format: ['camelCase', 'PascalCase'],
-    },
-    {
-      selector: 'variable',
-      format: ['strictCamelCase', 'UPPER_CASE', ...(isTsx ? ['StrictPascalCase'] : [])],
-      modifiers: ['const'],
-      types: ['boolean', 'string', 'number'],
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'variable',
-      types: ['boolean'],
-      format: ['PascalCase'],
-      prefix: ['is', 'has', 'should', 'can'],
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'variable',
-      modifiers: ['destructured'],
-      format: null,
-    },
-    {
-      selector: 'objectLiteralProperty',
-      format: null,
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'parameter',
-      format: ['strictCamelCase'],
-      leadingUnderscore: 'allow',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'typeLike',
-      format: ['PascalCase'],
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'typeProperty',
-      format: ['strictCamelCase', 'UPPER_CASE'],
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-    {
-      selector: 'enumMember',
-      format: ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
-      leadingUnderscore: 'forbid',
-      trailingUnderscore: 'forbid',
-    },
-  ],
-});
+export const getTsNamingConventionSelectors = ({ isTsx = false } = {}) => [
+  {
+    selector: 'default',
+    format: ['strictCamelCase', ...(isTsx ? ['StrictPascalCase'] : [])],
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'import',
+    format: ['camelCase', 'PascalCase'],
+  },
+  {
+    selector: 'variable',
+    format: ['strictCamelCase', 'UPPER_CASE', ...(isTsx ? ['StrictPascalCase'] : [])],
+    modifiers: ['const'],
+    types: ['boolean', 'string', 'number'],
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'variable',
+    types: ['boolean'],
+    format: ['PascalCase'],
+    prefix: ['is', 'has', 'should', 'can'],
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'variable',
+    modifiers: ['destructured'],
+    format: null,
+  },
+  {
+    selector: 'objectLiteralProperty',
+    format: null,
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'parameter',
+    format: ['strictCamelCase'],
+    leadingUnderscore: 'allow',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'typeLike',
+    format: ['PascalCase'],
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'typeProperty',
+    format: ['strictCamelCase', 'UPPER_CASE'],
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+  {
+    selector: 'enumMember',
+    format: ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
+    leadingUnderscore: 'forbid',
+    trailingUnderscore: 'forbid',
+  },
+];

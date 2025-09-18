@@ -1,13 +1,11 @@
 import reactPlugin from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 
-import stylisticJSXPlugin from '@stylistic/eslint-plugin-jsx';
+import stylistic from '@stylistic/eslint-plugin';
 import reactAccessibility from 'eslint-plugin-jsx-a11y';
-import typescriptEslint from 'typescript-eslint';
 
-import { reactRules } from '../rules/react.mjs';
-import { stylisticRules } from '../rules/stylistic.mjs';
-import { supportedFileTypes } from '../utils/fileTypes.mjs';
+import { reactRules, stylisticRules } from '../rules/index.mjs';
+import { supportedFileTypes } from '../utils/index.mjs';
 
 export const reactConfig = {
   name: 'eslint-config/react',
@@ -28,11 +26,10 @@ export const reactConfig = {
     },
   },
   plugins: {
-    '@typescript-eslint': typescriptEslint.plugin,
     'jsx-a11y': reactAccessibility,
     react: reactPlugin,
     'react-hooks': reactHooks,
-    '@stylistic/jsx': stylisticJSXPlugin,
+    '@stylistic': stylistic,
   },
   rules: {
     ...reactAccessibility.configs.recommended.rules,

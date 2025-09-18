@@ -1,6 +1,6 @@
 {
   "name": "@alexey-koran/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Shared eslint flat config",
   "main": "index.mjs",
   "type": "module",
@@ -18,36 +18,40 @@
     "url": "git+https://github.com/alexey-koran/eslint-config.git"
   },
   "keywords": [
-    "Eslint flat config"
+    "eslint",
+    "eslint-config",
+    "eslint-config-flat",
+    "flat-config",
+    "flat-config-eslint"
   ],
   "bugs": {
     "url": "https://github.com/alexey-koran/eslint-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/eslint-config#readme",
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "^3.0.1",
-    "@stylistic/eslint-plugin-jsx": "^3.0.1",
-    "@stylistic/eslint-plugin-ts": "^3.0.1",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-import-resolver-typescript": "^3.7.0",
+    "@stylistic/eslint-plugin": "^5.3.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-import-resolver-webpack": "^0.13.10",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-react": "^7.37.4",
-    "eslint-plugin-react-hooks": "5.1.0",
-    "globals": "^15.14.0",
-    "typescript-eslint": "^8.22.0"
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.4.0",
+    "typescript-eslint": "^8.44.0"
   },
   "devDependencies": {
-    "@alexey-koran/prettier-config": "^0.1.1",
-    "@eslint/config-inspector": "^1.0.0",
-    "@eslint/js": "^9.19.0",
-    "eslint": "^9.19.0",
-    "prettier": "^3.4.2"
+    "@alexey-koran/prettier-config": "^0.1.4",
+    "@alexey-koran/tsconfig": "^0.1.0",
+    "@eslint/config-inspector": "^1.2.0",
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2"
   },
   "peerDependencies": {
-    "@eslint/js": ">=9.19.0",
-    "eslint": ">=9.19.0"
+    "@eslint/js": ">=9.35.0",
+    "eslint": ">=9.35.0",
+    "prettier": ">=3.6.2"
   }
 }

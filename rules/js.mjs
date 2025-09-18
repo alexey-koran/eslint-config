@@ -1,4 +1,4 @@
-import { messages } from '../utils/messages.mjs';
+import { rulesMessages } from './messages.mjs';
 
 /*
   https://eslint.org/docs/latest/use/configure/rules
@@ -122,42 +122,39 @@ export const jsRules = {
     2,
     {
       selector: 'ForInStatement',
-      message:
-        'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys, values, entries}, and iterate over the resulting array.',
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_FOR_IN_LOOP,
     },
     {
       selector: "Identifier[name='Reflect']",
-      message:
-        'Avoid the Reflect API. It is a very low-level feature that has only rare and specific use-cases if building complex and hacky libraries. There is no need to use this feature for any kind of normal development',
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_REFLECT_API,
     },
     {
       selector: "BinaryExpression[operator='in']",
-      message: 'Prefer Object.hasOwn().',
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.PREFER_HAS_OWN,
     },
     {
       selector: "PropertyDefinition[accessibility='public']",
-      message: messages.NO_ACCESS_MODIFIER,
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_ACCESS_MODIFIER,
     },
     {
       selector: "PropertyDefinition[accessibility='protected']",
-      message: messages.NO_ACCESS_MODIFIER,
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_ACCESS_MODIFIER,
     },
     {
       selector: "PropertyDefinition[accessibility='private']",
-      message: messages.NO_ACCESS_MODIFIER,
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_ACCESS_MODIFIER,
     },
     {
       selector: "Identifier[name='PropTypes']",
-      message: 'No PropTypes. Use Typescript instead.',
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_PROPTYPES,
     },
     {
       selector: "Identifier[name='propTypes']",
-      message: 'No PropTypes. Use Typescript instead.',
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_PROPTYPES,
     },
     {
       selector: "Identifier[name='createContext']",
-      message:
-        'No React Context. Use component composition instead (https://beta.reactjs.org/learn/passing-data-deeply-with-context#before-you-use-context), or a "Global State Management" solution.',
+      message: rulesMessages.JS.RESTRICTED_SYNTAX.NO_REACT_CONTEXT,
     },
   ],
   'prefer-destructuring': [

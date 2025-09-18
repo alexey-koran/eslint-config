@@ -3,10 +3,9 @@ import importConfig from 'eslint-plugin-import/config/recommended.js';
 import prettierPlugin from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-plugin-prettier/recommended';
 import globals from 'globals';
-import typescriptEslint from 'typescript-eslint';
 
-import { importRules } from '../rules/import.mjs';
-import { supportedFileTypes } from '../utils/fileTypes.mjs';
+import { importRules } from '../rules/index.mjs';
+import { supportedFileTypes } from '../utils/index.mjs';
 
 export const baseConfig = {
   name: 'eslint-config/base',
@@ -16,10 +15,6 @@ export const baseConfig = {
       ...globals.browser,
       ...globals.node,
       ...globals.es2021,
-    },
-    parser: typescriptEslint.parser,
-    parserOptions: {
-      jsxPragma: null, // @typescript/eslint-parser
     },
   },
   linterOptions: {

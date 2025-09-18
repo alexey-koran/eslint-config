@@ -1,15 +1,14 @@
 import eslint from '@eslint/js';
-import stylisticJSPlugin from '@stylistic/eslint-plugin-js';
+import stylistic from '@stylistic/eslint-plugin';
 
-import { jsRules } from '../rules/js.mjs';
-import { stylisticRules } from '../rules/stylistic.mjs';
-import { supportedFileTypes } from '../utils/fileTypes.mjs';
+import { jsRules, stylisticRules } from '../rules/index.mjs';
+import { supportedFileTypes } from '../utils/index.mjs';
 
 export const javaScriptConfig = {
   name: 'eslint-config/javascript',
   files: [supportedFileTypes.js],
   plugins: {
-    '@stylistic/js': stylisticJSPlugin,
+    '@stylistic': stylistic,
   },
   rules: {
     ...eslint.configs.recommended.rules,

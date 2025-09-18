@@ -7,7 +7,7 @@
 
 export const stylisticRules = {
   js: {
-    '@stylistic/js/spaced-comment': [
+    '@stylistic/spaced-comment': [
       2,
       'always',
       {
@@ -22,7 +22,7 @@ export const stylisticRules = {
     ],
   },
   ts: {
-    '@stylistic/ts/padding-line-between-statements': [
+    '@stylistic/padding-line-between-statements': [
       2,
       {
         blankLine: 'always',
@@ -52,8 +52,8 @@ export const stylisticRules = {
     ],
   },
   react: {
-    '@stylistic/jsx/jsx-pascal-case': 2,
-    '@stylistic/jsx/jsx-sort-props': [
+    '@stylistic/jsx-pascal-case': 2,
+    '@stylistic/jsx-sort-props': [
       2,
       {
         callbacksLast: true,
