@@ -1,6 +1,6 @@
 {
   "name": "@alexey-koran/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Shared eslint flat config",
   "main": "index.mjs",
   "type": "module",
