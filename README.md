@@ -62,7 +62,7 @@ pnpm i -D @alexey-koran/eslint-config
 | eslint-plugin-prettier            | runs [Prettier](https://github.com/prettier/prettier) as an ESLint rule and reports differences as individual ESLint issues             | [v5.5.\*](https://github.com/prettier/eslint-plugin-prettier)             |
 | eslint-plugin-react               | React specific linting rules for ESLint                                                                                                 | [v7.37.\*](https://github.com/jsx-eslint/eslint-plugin-react)             |
 | eslint-plugin-react-hooks         | enforces the [Rules of Hooks](https://react.dev/reference/rules/rules-of-hooks)                                                         | [v5.2.\*](https://www.npmjs.com/package/eslint-plugin-react-hooks)        |
-| @stylistic/eslint-plugin          | Stylistic Formatting for ESLint. Formatting and Linting in one go, with fully customizable rules                                        | [v5.3.\*](https://github.com/eslint-stylistic/eslint-stylistic)           |
+| @stylistic/eslint-plugin          | Stylistic Formatting for ESLint. Formatting and Linting in one go, with fully customizable rules                                        | [v5.4.\*](https://github.com/eslint-stylistic/eslint-stylistic)           |
 |                                   |                                                                                                                                         |                                                                           |
 |                                   | `Other`                                                                                                                                 |                                                                           |
 | globals                           | global identifiers from different JavaScript environments                                                                               | [v16.4.\*](https://github.com/sindresorhus/globals)                       |
@@ -76,14 +76,14 @@ pnpm i -D @alexey-koran/eslint-config
 
 | Package name                  | Description                                                                                             | Version                                                   |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| eslint                        | configurable JavaScript linter                                                                          | [v9.35.\*](https://eslint.org/)                           |
+| eslint                        | configurable JavaScript linter                                                                          | [v9.36.\*](https://eslint.org/)                           |
 | prettier                      | opinionated code formatter                                                                              | [v3.6.\*](https://prettier.io/)                           |
 |                               |                                                                                                         |                                                           |
 |                               | `Plugins`                                                                                               |                                                           |
-| @eslint/js                    | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                   | [v9.35.\*](https://www.npmjs.com/package/@eslint/js)      |
+| @eslint/js                    | ESLint JavaScript plugin Separating out JavaScript-specific functionality from ESLint                   | [v9.36.\*](https://www.npmjs.com/package/@eslint/js)      |
 |                               |                                                                                                         |                                                           |
 |                               | `Other`                                                                                                 |                                                           |
-| @eslint/config-inspector      | ESLint config inspector                                                                                 | [v1.2.\*](https://github.com/eslint/config-inspector)     |
+| @eslint/config-inspector      | ESLint config inspector                                                                                 | [v1.3.\*](https://github.com/eslint/config-inspector)     |
 | @alexey-koran/prettier-config | Prettier [sharing configuration](https://prettier.io/docs/en/configuration.html#sharing-configurations) | [v0.1\*](https://npmjs.com/@alexey-koran/prettier-config) |
 |                               |                                                                                                         |                                                           |
 
