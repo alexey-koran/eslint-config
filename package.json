@@ -28,6 +28,7 @@
     "url": "https://github.com/alexey-koran/eslint-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/eslint-config#readme",
+  "packageManager": "pnpm@10.17.0",
   "dependencies": {
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
