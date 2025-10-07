@@ -28,7 +28,7 @@
     "url": "https://github.com/alexey-koran/eslint-config/issues"
   },
   "homepage": "https://github.com/alexey-koran/eslint-config#readme",
-  "packageManager": "pnpm@10.17.0",
+  "packageManager": "pnpm@10.18.1",
   "dependencies": {
     "@stylistic/eslint-plugin": "^5.4.0",
     "eslint-config-prettier": "^10.1.8",
