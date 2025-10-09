@@ -43,8 +43,8 @@ importers:
         version: 8.44.0(eslint@9.36.0)(typescript@5.9.2)
     devDependencies:
       '@alexey-koran/prettier-config':
-        specifier: ^0.1.4
-        version: 0.1.4(prettier@3.6.2)
+        specifier: ^0.1.5
+        version: 0.1.5(prettier@3.6.2)
       '@alexey-koran/tsconfig':
         specifier: ^0.1.0
         version: 0.1.0
@@ -63,8 +63,8 @@ importers:
 
 packages:
 
-  '@alexey-koran/prettier-config@0.1.4':
-    resolution: {integrity: sha512-QYbGsxPdkopzxp80EZsqh9df2P8CJ4pijwwYam8pdwt0T9PHaNWk2nPKz27IgZIcUOxjbytBztvDa33W91t4Mw==}
+  '@alexey-koran/prettier-config@0.1.5':
+    resolution: {integrity: sha512-ykvip67Fwp8kA3JniS99DgGAfJIRk750XTPjOVDjcaBNdg3z1mF20tJeu2dEofhiW9xrODWtSI10UdQnNh3GUw==}
     peerDependencies:
       prettier: ^3.6.2
 
@@ -1991,7 +1991,7 @@ packages:
 
 snapshots:
 
-  '@alexey-koran/prettier-config@0.1.4(prettier@3.6.2)':
+  '@alexey-koran/prettier-config@0.1.5(prettier@3.6.2)':
     dependencies:
       prettier: 3.6.2
 
